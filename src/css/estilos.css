@@ -1,0 +1,113 @@
+:root {
+    --cor-fundo: hsl(257, 40%, 49%);
+    --cor-botao-register: hsl(300, 69%, 71%);
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 100vh;
+    
+} 
+
+.page {
+    font-family: "Poppins", sans-serif;
+    background: url('../images/bg-desktop.svg') no-repeat;
+    background-color: var(--cor-fundo);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1440px;
+}
+
+.cabecalho {
+    color: #ffffff;
+    padding: 3.5rem 4rem;
+}
+
+.cabecalho img {
+    margin-left: 30px;
+    width: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 40px 0px 40px;
+    gap: 30px;
+}
+
+.ilustracao {
+    padding: 2.5rem;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    max-width: 500px;
+    margin-right: 110px;
+    margin-bottom: 130px;
+}
+
+.register h1 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 3.6rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.register p {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6rem;
+} 
+
+.btn {
+    color: var(--cor-fundo);
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6rem;
+    padding: 1.2rem 5rem;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 30px;
+    width: fit-content;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+  background-color: var(--cor-botao-register);
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.rodape {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4rem;
+    margin-bottom: 30px;
+}
+
+.redes-sociais {
+    margin-right: 10px;
+}
+.redes-sociais a {
+    margin: 0 10px;
+    color: #ffffff;
+    font-size: 25px;
+
+    transition: 0.3s;
+}
+
+.redes-sociais a:hover {
+    color: var(--cor-botao-register);
+}
+
+
